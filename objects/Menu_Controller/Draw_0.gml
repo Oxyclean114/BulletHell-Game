@@ -1,0 +1,1 @@
+draw_text_color(250,125,"Free is how the game used to play\nThe levels don't really work\nWinning level 2 will lock the game\nLevels 3-4 don't exist\nPress r to restart",c_black,c_black,c_black,c_black,1)

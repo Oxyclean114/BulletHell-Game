@@ -1,0 +1,5 @@
+instance_destroy(EnemyCurveBullet)
+instance_destroy(Enemy)
+instance_destroy(Coin)
+instance_destroy(Bullet)
+instance_destroy(EnemyBullet)

@@ -1,0 +1,1 @@
+instance_create_depth(room_width / 2, room_height - 200,1,Character)
