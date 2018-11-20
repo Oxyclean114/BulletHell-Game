@@ -54,6 +54,7 @@ if (!instance_exists(Character))
 if (keyboard_check_pressed(ord("I")))
 	global.invul = true
 
+//Volume
 if (keyboard_check_pressed(vk_numpad8) && global.vol < 1)
 {
 	global.vol += .1

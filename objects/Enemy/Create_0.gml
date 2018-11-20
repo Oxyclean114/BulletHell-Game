@@ -7,7 +7,7 @@ timer = fireRate //Timer to count till fire
 image_xscale /= 2
 image_yscale /= 2
 
-if (x < room_width / 2)
+if (x < room_width / 2 && onPath = true)
 	path_start(path0,move_speed,path_action_stop,false)
-else
+else if (x > room_width / 2 && onPath = true)
 	path_start(path1,move_speed,path_action_stop,false)
