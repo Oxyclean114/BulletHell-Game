@@ -50,7 +50,7 @@ if (!instance_exists(Character))
 	instance_create_depth(room_width / 2, room_height - 200,1,Character)	
 }
 
-//Make the player Invunerable
+//Make the player Invulnerable
 if (keyboard_check_pressed(ord("I")))
 	global.invul = true
 

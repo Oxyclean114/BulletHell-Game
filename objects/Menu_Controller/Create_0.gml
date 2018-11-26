@@ -26,3 +26,6 @@ for (var i = 1;i < 5;i++)
 }
 var free = instance_create_depth(150,50,1,MenuLvlButton)
 	free.free = true
+
+//Enable the debug overlay
+show_debug_overlay(true)

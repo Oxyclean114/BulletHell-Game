@@ -11,7 +11,10 @@
 //	timeline_running = true
 //}
 
-timeline_index = global.Level - 1
+if (global.Level != -2)
+	timeline_index = global.Level - 1
+else
+	timeline_index = Test
 
 if (!instance_exists(Enemy) && timeline_position >= timeline_max_moment(timeline_index) && global.Level != -1)
 {

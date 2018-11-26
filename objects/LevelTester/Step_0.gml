@@ -1,0 +1,2 @@
+i++
+SpawnTest(i)
