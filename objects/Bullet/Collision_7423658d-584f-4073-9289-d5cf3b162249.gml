@@ -2,8 +2,8 @@ instance_destroy(other)
 instance_destroy(self)
 audio_play_sound(Explosion,1,false)
 //global.spawntimer--
-
-instance_create_depth(x,y,1,Coin)
+for (var i = 0; i < 10;i++)
+	instance_create_depth(x,y,1,Coin)
 
 if (global.combo % 5 = 0)
 {

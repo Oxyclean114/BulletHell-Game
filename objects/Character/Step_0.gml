@@ -73,7 +73,7 @@ if (can_shoot = false)
 }
 
 //Screen Wrap
-move_wrap(true,false,-(room_width / 4))
+move_wrap(true,false,sprite_get_width(BaseCharacter_spr) / 2)
 
 //SpawnShield
 if (global.shield = true && shieldActive = false)

@@ -9,7 +9,7 @@ if (mouse_check_button_pressed(mb_right))
 }
 if (mouse_check_button_pressed(mb_middle))
 {
-	instance_create_depth(mouse_x,mouse_y,1,Enemy)	
+	instance_create_depth(mouse_x,mouse_y,1,SpikeWheel)	
 }
 
 //Restart the game
@@ -23,8 +23,14 @@ if (global.Level = -1)
 	if (timer >= global.spawntimer)
 	{
 		timer = 0
-		var new = instance_create_depth(irandom_range(room_width / 4,room_width - (room_width / 4)),-16,1,Enemy)	
+		var new = instance_create_depth(irandom_range(sprite_get_width(BaseEnemy_spr),room_width - sprite_get_width(BaseEnemy_spr)),-16,1,Enemy)	
 	}
+}
+
+//Spawn Spikey Bois
+if (!instance_exists(SpikeWheel)) && (global.combo % 10 = 0) && (global.combo != 0)
+{
+	instance_create_layer(irandom(room_width),0,"Enemies",SpikeWheel)
 }
 
 //Increase spawn rates

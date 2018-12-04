@@ -5,5 +5,3 @@ fire_rate = room_speed / 10
 timer = 0
 gx = room_width * .5
 gy = room_height * .25
-
-instance_create_layer(x,y,"Enemies",SpikeWheel)

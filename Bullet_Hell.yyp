@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "1a5a7edb-81d5-4963-b12f-70968093037d",
+            "Value": {
+                "id": "fd82773b-e4ed-4d4b-a6f3-3e422c6c830e",
+                "resourcePath": "sounds\\ButtonHover\\ButtonHover.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1b8f1f41-3263-442c-9605-4a4aa5d715a3",
             "Value": {
                 "id": "6b3f679f-f047-469c-9c67-829dd0171ab6",
@@ -535,6 +543,14 @@
             }
         },
         {
+            "Key": "8735bff9-c72f-446f-a02b-4e63a74769a4",
+            "Value": {
+                "id": "a3882246-ed5d-4d8b-9af2-906e18ee4005",
+                "resourcePath": "sounds\\ComboUp\\ComboUp.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "88453da9-18c0-4e06-9a97-3abb29599d5a",
             "Value": {
                 "id": "0a822e42-5d92-4efc-a5bd-4ed123906925",
@@ -924,6 +940,14 @@
                 "id": "3e0d5607-f480-429a-9ab1-fbd6e18dbc0f",
                 "resourcePath": "objects\\Fullscreen\\Fullscreen.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fcc8d96c-f361-48b9-b67f-eaabf71d08b2",
+            "Value": {
+                "id": "712e93c7-dd3a-4c9f-a6ce-48f84ed4bdef",
+                "resourcePath": "sounds\\GameStart\\GameStart.yy",
+                "resourceType": "GMSound"
             }
         }
     ],

@@ -17,7 +17,8 @@ y += move_speed
 //Destroy if off screen
 if (y > room_height + 32)
 {
-	instance_destroy(self)	
+	instance_destroy(self)
+	global.combo = 0
 }
 
 //Start the Path
