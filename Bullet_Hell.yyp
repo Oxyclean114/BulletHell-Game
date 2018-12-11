@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "11a6a47a-f98d-4e00-b875-fd8038e80bcd",
+            "Value": {
+                "id": "1b15f065-3466-4a72-b9b0-3b67b107b803",
+                "resourcePath": "sprites\\Boss_Turret_Cannon_spr\\Boss_Turret_Cannon_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1277beb3-bad3-4aea-bd2b-9bda4320a8a5",
             "Value": {
                 "id": "5bbbcfba-2a1a-4bd0-a93c-3190e6f9a9ee",
@@ -84,6 +92,14 @@
                 "id": "f4429a94-6a42-4d4d-8740-7e3cd08bedba",
                 "resourcePath": "views\\14596c74-63b5-458d-a889-9859be560a47.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "14b48b53-6b97-4ee7-872e-a9ddc55b700c",
+            "Value": {
+                "id": "5c4f143d-9735-4c57-922d-2e491994a828",
+                "resourcePath": "objects\\Boss_Turret_Cannon\\Boss_Turret_Cannon.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -124,6 +140,14 @@
                 "id": "136d1243-5d3c-467a-ac66-1a1d07cd9b11",
                 "resourcePath": "views\\1637ee21-553c-4bd3-a3ec-78b0672e0115.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "17de524c-9a2b-4fcd-92ba-2b1c39e99168",
+            "Value": {
+                "id": "f0421829-e485-4025-a080-8a00fdcaeb50",
+                "resourcePath": "objects\\Boss_Turret_Base\\Boss_Turret_Base.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -335,6 +359,14 @@
             }
         },
         {
+            "Key": "421e9a82-f09c-471b-9f91-848ec00b2ae7",
+            "Value": {
+                "id": "d7cd8e5b-e2d0-4d7a-8034-a18072e16794",
+                "resourcePath": "sprites\\Boss_Turret_Base_spr\\Boss_Turret_Base_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "480da489-2790-4977-a55e-b5cd68b8fc31",
             "Value": {
                 "id": "27f29dfe-501e-4a28-ae38-4ae2dceded2f",
@@ -503,11 +535,27 @@
             }
         },
         {
+            "Key": "76fd7e67-014a-4135-ad35-e618676ac878",
+            "Value": {
+                "id": "6f26170f-2e6f-4fd6-bbf5-b93901346bcd",
+                "resourcePath": "objects\\Boss\\Boss.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7721195c-6f45-4476-9fbd-f8bb3b332cd3",
             "Value": {
                 "id": "4260d3db-a03d-476e-bc1b-7e13037c28c6",
                 "resourcePath": "objects\\MenuLvlButton\\MenuLvlButton.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "79434325-9e1c-4103-bf86-aadab1c5cd24",
+            "Value": {
+                "id": "d93289dc-967a-4774-ac99-4ab069908145",
+                "resourcePath": "sprites\\Boss_Base_spr\\Boss_Base_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -628,6 +676,14 @@
                 "id": "e7183a95-0f40-4699-beda-cc636cca18d6",
                 "resourcePath": "views\\9ef35294-2bda-42dd-8b13-85de0b825e98.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a010cd71-8f00-4ee3-8927-72045eb45e3e",
+            "Value": {
+                "id": "42cca256-2110-4aca-8fec-1aa4e874e489",
+                "resourcePath": "objects\\Boss_Button\\Boss_Button.yy",
+                "resourceType": "GMObject"
             }
         },
         {

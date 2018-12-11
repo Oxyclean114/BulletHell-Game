@@ -72,3 +72,9 @@ if (keyboard_check_pressed(vk_numpad5) && global.vol > 0)
 	audio_master_gain(global.vol)	
 }
 
+//Boss Test
+if (global.Level = -3) && !instance_exists(Boss)
+{
+	instance_create_layer(room_width * .5,-100,"Enemies",Boss)	
+}
+
