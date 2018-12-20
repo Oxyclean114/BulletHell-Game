@@ -11,7 +11,7 @@ if (pause = false)
 	if(!sprite_exists(pauseShot))
         pauseShot = sprite_add("pauseShot",0,0,0,0,0)
 	instance_deactivate_all(true)
-	instance_create_layer(room_width / 2,(room_height / 2) + 64,pauseLayer,EndGame)
+	//instance_create_layer(room_width / 2,(room_height / 2) + 64,pauseLayer,EndGame)
 }
 else if (pause = true)
 {

@@ -44,7 +44,7 @@ if (global.Level = 1)
 	}
 }
 
-if (!instance_exists(Enemy) && timer >= MaxLevelTime && global.Level != -1)
+if (!layer_has_instance("Enemies",Enemy) && timer >= MaxLevelTime && global.Level != -1 && global.Level != -3)
 {
 	timer = 0
 	cut_timer = 0

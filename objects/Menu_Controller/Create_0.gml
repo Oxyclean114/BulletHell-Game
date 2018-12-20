@@ -4,6 +4,7 @@ global.Level = -1
 global.won = false
 global.combo = 0
 global.maxcombo = 0
+global.variables = []
 
 // Display properties
 //display_width = display_get_width();
@@ -39,19 +40,65 @@ instance_create_depth(room_width / 2,room_height * .66,1,EndGame)
 //File Checking
 if (!file_exists("Combo Counter.txt"))
 {
-		//Create file by opening for writing
-		var write = file_text_open_write("Combo Counter.txt")
-		file_text_write_real(write,0)
-		file_text_close(write)
+	//Create file by opening for writing
+	var write = file_text_open_write("Combo Counter.txt")
+	file_text_write_real(write,0)
+	file_text_close(write)
 		
-		//Open file for reading and set winCounter = to value written
-		var read = file_text_open_read("Combo Counter.txt")
-		global.maxcombo = file_text_read_real(read)
-		file_text_close(read)	
+	//Open file for reading and set winCounter = to value written
+	var read = file_text_open_read("Combo Counter.txt")
+	global.maxcombo = file_text_read_real(read)
+	file_text_close(read)	
 }
 else
 {
 	var read = file_text_open_read("Combo Counter.txt")
 	global.maxcombo = file_text_read_real(read)
+	file_text_close(read)
+}
+
+//Create file by opening for writing
+if (!file_exists("Variables.txt"))
+{
+	var write = file_text_open_write("Variables.txt")
+	
+	file_text_write_string(write,"Shot Speed: \n")
+	file_text_write_real(write,12)
+	file_text_write_string(write,"\n")
+	
+	file_text_write_string(write,"Fire Rate: (Lower is Faster)\n")
+	file_text_write_real(write,15)
+	file_text_write_string(write,"\n")
+	
+	file_text_write_string(write,"Move Speed: \n")
+	file_text_write_real(write,8)
+	file_text_write_string(write,"\n")
+	
+	file_text_write_string(write,"Dexterity: \n")
+	file_text_write_real(write,50)
+	file_text_write_string(write,"\n")
+	
+	file_text_close(write)
+	
+	//Read Variables
+	var read = file_text_open_read("Variables.txt")
+	for (var i = 0; i < 10; i++)
+	{
+		file_text_readln(read)
+		global.variables[i] = file_text_read_real(read)
+		file_text_readln(read)
+	}
+	file_text_close(read)
+}
+else
+{	
+	//Read Variables
+	var read = file_text_open_read("Variables.txt")
+	for (var i = 0; i < 10; i++)
+	{
+		file_text_readln(read)
+		global.variables[i] = file_text_read_real(read)
+		file_text_readln(read)
+	}
 	file_text_close(read)
 }

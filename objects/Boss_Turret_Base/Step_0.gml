@@ -20,3 +20,9 @@ if (Health <= 0)
 {
 	instance_destroy(self)	
 }
+
+//Destroy the instance when the boss is defeated
+if (!instance_exists(Boss))
+{
+	instance_destroy(self)	
+}
