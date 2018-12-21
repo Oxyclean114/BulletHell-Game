@@ -647,6 +647,14 @@
             }
         },
         {
+            "Key": "99284a71-e059-420a-836f-667fbc4fdbf2",
+            "Value": {
+                "id": "d075fcc4-b388-488b-859d-e27222f0c84b",
+                "resourcePath": "sprites\\Blur_spr\\Blur_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "99fb857e-c843-49fa-b720-279046b440fd",
             "Value": {
                 "id": "d3bd6e31-b603-43db-82e1-bcc70f5c9960",
