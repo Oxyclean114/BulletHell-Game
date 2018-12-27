@@ -44,7 +44,7 @@ if (keyboard_check_pressed(vk_tab))
 {	
 	if (global.won != true)
 	{
-		LevelController.timeline_position = 0
+		LevelController.timer = 0
 	}
 	ClearNonEssential()
 	room_goto(Shop)

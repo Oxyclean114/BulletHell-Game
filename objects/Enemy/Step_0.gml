@@ -1,15 +1,15 @@
 //Shooting
-if (timer != 0)
-{
-	timer--
-}
-else
-{
-	var shot = instance_create_depth(x,y,1,EnemyBullet)
-		shot.direction = 270
-		shot.speed = 10
-	timer = fireRate
-}
+//if (timer != 0)
+//{
+//	timer--
+//}
+//else
+//{
+//	var shot = instance_create_depth(x,y,1,EnemyBullet)
+//		shot.direction = 270
+//		shot.speed = 10
+//	timer = fireRate
+//}
 
 //Movement
 y += move_speed

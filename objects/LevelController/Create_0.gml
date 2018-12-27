@@ -4,5 +4,5 @@ spawnXFromLeft = spawnMin
 spawnXFromRight = spawnMax
 
 MaxLevelTime = 30
+flooredtimer = 0
 timer = 0
-cut_timer = 0

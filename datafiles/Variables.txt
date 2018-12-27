@@ -1,0 +1,6 @@
+Shot Speed:
+12
+Fire Rate: (Lower is Faster)
+15
+Move Speed:
+8

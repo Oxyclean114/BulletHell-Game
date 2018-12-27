@@ -1,40 +1,10 @@
-////Level 1
-//if (global.Level = 1 && timeline_running = false)
-//{
-//	timeline_index = Lvl1
-//	timeline_running = true
-//}
-////Level 2
-//if (global.Level = 2 && timeline_running = false)
-//{
-//	timeline_index = Lvl2
-//	timeline_running = true
-//}
-
-//if (global.Level != -2)
-//	timeline_index = global.Level - 1
-//else
-//	timeline_index = Test
-
-//if (!instance_exists(Enemy) && timeline_position >= timeline_max_moment(timeline_index) && global.Level != -1)
-//{
-//	global.Level++
-//	global.won = true
-//	timeline_position = 0
-//	timeline_running = false
-//	ClearNonEssential()
-//	room_goto(Shop)
-//}
-
-//if (timeline_running = false)
-//	timeline_running = true
-
-cut_timer += 1 / room_speed
-timer = floor(cut_timer)
+//Timer control
+timer += 1 / room_speed
+flooredtimer = floor(timer)
 
 if (global.Level = 1)
 {
-	if (cut_timer = 1)
+	if (timer = 1)
 	{
 		for (var i = 0; i > 10; i++)
 		{
@@ -44,12 +14,63 @@ if (global.Level = 1)
 	}
 }
 
-if (!layer_has_instance("Enemies",Enemy) && timer >= MaxLevelTime && global.Level != -1 && global.Level != -3)
+//End the level when all enemies are dead and the timer has passed the max time
+if (!layer_has_instance("Enemies",Enemy) && flooredtimer >= MaxLevelTime && global.Level > 0)
 {
+	flooredtimer = 0
 	timer = 0
-	cut_timer = 0
 	global.Level++
 	global.won = true
 	ClearNonEssential()
 	room_goto(Shop)
+}
+
+//Level 1
+if (global.Level = 1)
+{
+	if (flooredtimer = 1)
+	{
+		SpawnEnemies("Left",3,false)
+	}
+	
+	if (flooredtimer = 3)
+	{
+		SpawnEnemies("Right",3,false)	
+	}
+	
+	if (flooredtimer = 5)
+	{
+		SpawnEnemies("Mid",5,false)	
+	}
+	
+	if (flooredtimer = 8)
+	{
+		SpawnEnemies("Mid",11,false)	
+	}
+	
+	if (flooredtimer = 10)
+	{
+		SpawnEnemies("Left",1,false)	
+	}
+	
+	if (flooredtimer = 11)
+	{
+		SpawnEnemies("Right",1,false)	
+	}
+	
+	if (flooredtimer = 12)
+	{
+		SpawnEnemies("Left",1,false)	
+	}
+		
+	if (flooredtimer = 13)
+	{
+		SpawnEnemies("Right",1,false)	
+	}
+		
+	if (flooredtimer = 14)
+	{
+		SpawnEnemies("Left",1,false)	
+	}
+	
 }

@@ -8,7 +8,7 @@ if ((keyboard_check(ord("D")) || keyboard_check(vk_right)) && room = Game)
 	x += global.move_speed
 }
 //Horizontal movement
-if ((keyboard_check(ord("W")) || keyboard_check(vk_up)) && room = Game)
+if ((keyboard_check(ord("W")) || keyboard_check(vk_up)) && y > 16 && room = Game)
 {
 	y -= global.move_speed
 }

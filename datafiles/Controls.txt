@@ -1,0 +1,12 @@
+WASD: Movement
+Directional Keys: Movement
+Space Bar: Shoot
+R: Restart Game
+Tab: Change between shop and game
+I: Invincibility
+Escape: Pause
+Numpad 8: Volume up
+Numpad 5: Volume Down
+Left Mouse Button: Spawn Coins
+Middle Mouse Button: Spawn Spike Enemy
+Right Mouse Button: Spawn Coin Crate
